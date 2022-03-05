@@ -1,0 +1,31 @@
+{
+  "name": "freenas-ip-lookup",
+  "version": "1.0.0",
+  "description": "NodeJS script that parses auth.log file and gets information about the IP that's trying to brute force SSH login.",
+  "main": "bin/index.js",
+  "bin": {
+    "hello": "./bin/index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irgipaulius/freenas-ip-lookup.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/irgipaulius/freenas-ip-lookup/issues"
+  },
+  "homepage": "https://github.com/irgipaulius/freenas-ip-lookup#readme",
+  "dependencies": {
+    "boxen": "4.0.0",
+    "chalk": "2.4.2",
+    "fetch": "1.1.0",
+    "fs": "0.0.1-security",
+    "path": "0.12.7",
+    "yargs": "17.3.1"
+  }
+}
